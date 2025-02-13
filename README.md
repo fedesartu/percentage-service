@@ -9,7 +9,7 @@
 
 ## Run Locally using Docker Image
 1. Download docker-compose.yml file from repo
-2. Run -> dokcer compose up
+2. Run -> docker compose up
 
 ## Run Locally from Scratch
 1. Clone repository
