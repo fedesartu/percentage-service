@@ -2,9 +2,9 @@
 ## Technologies
 - Java 21
 - Spring Boot 3.2.4
-- Spring Boot Webflux
+- Spring Boot Webflux: webflix was selected to improve our API performance and manage better the resources.
 - Postgres Database
-- Redis Cache
+- Redis Cache: Redis was selectd to use as cache, so that we can have a distributed cache and allow multiple replicas of the service. Also, it is really fast in reads, so it will make our application performant.
 - REST API
 
 ## Run Locally using Docker Image
