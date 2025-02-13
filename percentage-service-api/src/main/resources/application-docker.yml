@@ -1,0 +1,8 @@
+spring:
+  redis:
+    host: redis
+    port: 6379
+  r2dbc:
+    url: r2dbc:postgresql://postgres-database:5432/percentage
+    username: postgres
+    password: admin
