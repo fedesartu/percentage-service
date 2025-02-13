@@ -3,7 +3,7 @@ version: '3'
 services:
   percentage-service:
     container_name: percentage-service
-    image: percentage-service
+    image: fedesartu/percentage-service
     restart: on-failure
     depends_on:
       - redis
