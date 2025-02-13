@@ -18,9 +18,9 @@ services:
     restart: always
     shm_size: 128mb
     environment:
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
-    volumes:
-      - ./database/init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+      POSTGRES_DB: percentage
     ports:
       - '5432:5432'
   adminer:
